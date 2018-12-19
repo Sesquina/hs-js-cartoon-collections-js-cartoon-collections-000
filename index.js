@@ -44,3 +44,22 @@ function findTheCheese (foods) {
 }
 return "no cheese!";
 }
+
+
+
+function wordsWithB (arrayOfWords){
+  var newArray= [];
+  for(var i=0;i<arrayOfWords.length;i++){
+    if (arrayOfWords[i][0]=== "B"
+    ){
+     newArray.push (arrayOfWords[i]);
+    }
+  }
+  return newArray
+}
+
+
+  //bob, sally, billy
+
+
+
